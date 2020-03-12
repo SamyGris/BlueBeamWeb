@@ -1,9 +1,15 @@
+@font-face {
+  font-family: Bitiwise;
+  src: url('WEB/css/bitiwise.ttf');
+}
+
+
 body{
   background-color: #5472AE;
 }
 
 *{
-  font-family:"palatino linotype", palatino, serif;
+  font-family: Bitiwise;
 }
 
 a{
@@ -137,14 +143,14 @@ a:focus {
 
 
 .studio{
-  width: 90%;
+  width: 100%;
   display: inline-block;
   border-radius: 20px;
 
 }
 
 .studio:hover{
-  width: 100%;
+  width: 101%;
 }
 /* quick reset */
 
@@ -170,4 +176,20 @@ a:focus {
 .img__wrap:hover .img__description  {
   visibility: visible;
   opacity: 1;
+}
+
+.later{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.artworkContainer{
+  margin-top: 150px;
+}
+
+.artwork .artworkBIG{
+  width: 255px;
+  height: 255px;
 }
